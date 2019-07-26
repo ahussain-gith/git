@@ -1,9 +1,9 @@
 # git
-accumulates git basics
-Git Commands
-A list of my commonly used Git commands
+
 <html>
     <body>
+       
+<h2>A list of my commonly used Git commands</h2>
 <h3>Getting & Creating Projects</h3>
 <table>
     <thead>
@@ -12,15 +12,25 @@ A list of my commonly used Git commands
     <tbody>
     <tr><td>git init</td><td>Initialize a local Git repository</td></tr>
     <tr><td>git clone ssh://git@github.com/[username]/[repository-name].git</td><td>Create a local copy of a remote repository</td></tr>
-    <tr><td>Basic Snapshotting</td><td></td><tr>
-    <tr><td>Command</td><td>Description</td></tr>
+    </tbody></table>
+   <h3>Basic Snapshotting</h3>
+   <table>
+    <thead>
+        <td>Command</td><td>Description</td>
+    </thead>
+    <tbody>
 <tr><td>git status 	Check status</td></tr>
 <tr><td>git add [file-name.txt]</td><td> 	Add a file to the staging area</td></tr>
 <tr><td>git add -A </td><td>	Add all new and changed files to the staging area</td></tr>
 <tr><td>git commit -m "[commit message]" </td><td>	Commit changes</td></tr>
 <tr><td>git rm -r [file-name.txt] </td><td>	Remove a file (or folder)</td></tr>
-        <tr><td>Branching & Merging</td><td></td></tr>
-<tr><td>Command </td><td>	Description</td></tr>
+    </tbody><table>
+    <h3>Branching & Merging</h3>
+ <table>
+    <thead>
+        <td>Command</td><td>Description</td>
+    </thead>
+    <tbody>
 <tr><td>git branch </td><td>	List branches (the asterisk denotes the current branch)</td></tr>
 <tr><td>git branch -a 	</td><td>List all branches (local and remote)</td></tr>
 <tr><td>git branch [branch name] </td><td>	Create a new branch</td></tr>
@@ -35,8 +45,13 @@ A list of my commonly used Git commands
 <tr><td>git merge [source branch] [target branch] </td><td>	Merge a branch into a target branch</td></tr>
 <tr><td>git stash 	</td><td>Stash changes in a dirty working directory</td></tr>
 <tr><td>git stash clear </td><td>	Remove all stashed entries</td></tr>
-        <tr><td>Sharing & Updating Projects</td><td></td></tr>
-<tr><td>Command </td><td>	Description</td></tr>
+     </tbody></table>
+    <h3>Sharing & Updating Projects</h3>
+<table>
+    <thead>
+        <td>Command</td><td>Description</td>
+    </thead>
+    <tbody>
 <tr><td>git push origin [branch name] </td><td>	Push a branch to your remote repository</td></tr>
 <tr><td>git push -u origin [branch name] </td><td>	Push changes to remote repository (and remember the branch)</td></tr>
 <tr><td>git push 	</td><td>Push changes to remote repository (remembered branch)</td></tr>
@@ -45,7 +60,13 @@ A list of my commonly used Git commands
 <tr><td>git pull origin [branch name]</td><td> 	Pull changes from remote repository</td></tr>
 <tr><td>git remote add origin ssh://git@github.com/[username]/[repository-name].git </td><td>	Add a remote repository</td></tr>
 <tr><td>git remote set-url origin ssh://git@github.com/[username]/[repository-name].git </td><td>	Set a repository's origin branch to SSH</td></tr>
-        <tr><td>Inspection & Comparison</td><td></td></tr>
+    </tbody></table>
+    <h3>Inspection & Comparison</h3>
+    <table>
+    <thead>
+        <td>Command</td><td>Description</td>
+    </thead>
+    <tbody>
 <tr><td>Command </td><td>	Description</td></tr>
 <tr><td>git log </td><td>	View changes</td></tr>
 <tr><td>git log --summary </td><td>	View changes (detailed)</td></tr>
