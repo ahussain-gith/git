@@ -1,20 +1,19 @@
 # git
 accumulates git basics
 Git Commands
-Translated Versions
 
-    Versão em português
 
 A list of my commonly used Git commands
 
-If you are interested in my Git aliases, have a look at my .bash_profile, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile
-
---
-Getting & Creating Projects
-Command 	Description
-git init 	Initialize a local Git repository
-git clone ssh://git@github.com/[username]/[repository-name].git 	Create a local copy of a remote repository
-Basic Snapshotting
+<h3>Getting & Creating Projects</h3>
+<table>
+    <thead>
+        <td>Command</td><td>Description</td>
+    </thead>
+    <tbody>
+        <tr><td>git init</td><td>Initialize a local Git repository</td></tr>
+<tr><td>git clone ssh://git@github.com/[username]/[repository-name].git</td><td>Create a local copy of a remote repository</td></tr>
+        <tr><td>Basic Snapshotting</td><td></td><tr>
 Command 	Description
 git status 	Check status
 git add [file-name.txt] 	Add a file to the staging area
